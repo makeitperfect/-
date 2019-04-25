@@ -1,0 +1,25 @@
+/* pages/pageC/page.wxss */
+/* pages/pageB/page.wxss */
+
+.p0{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(38, 0, 39);
+  height: 100vh
+}
+view{
+  padding: 5vh;
+  margin: 2vh;
+  background-color: rgb(87, 4, 69);
+}
+text{
+  float: left;
+  color: white;
+  font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 700
+}
+input{
+  border:1px #aaa solid;
+  background-color: white
+}

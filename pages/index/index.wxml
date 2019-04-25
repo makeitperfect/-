@@ -1,0 +1,27 @@
+<view class='p0'>
+  <text>仙家府邸:{{ideal_goal}}</text>
+  <text>大比倒计时:{{days}}天</text>
+</view>
+<view class='main'> 
+  <text style='align:center'> 日程</text>
+  <view wx:if="{{!haveSch}}" class='noInfo'><text>亲！您还没有日程，快去添加吧</text></view>
+  <view wx:else>
+    <view  class='p1' wx:for="{{schedule}}">
+  <image src="/image/rili/rili_{{index}}.png" >rili</image>
+  <view class='del' bindtap='delItem' data-itemId="{{item._id}}"><text>删除</text></view>
+  <view class='p2'>
+    <text style='font-size: 17px'>日程名称：{{item.name}}</text>
+    <text style='font-size: 14px'>日程描述:{{item.content}}
+    </text>
+  </view>
+  </view>
+</view>
+  
+  <view style='height:15vh'></view>
+</view>
+<view class='add' bindtap='addProject'>
+  <text class='center'>添加日程</text>
+</view>
+
+
+

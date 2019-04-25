@@ -1,0 +1,21 @@
+
+<!--<text>你的个人unionId是：{{openid}}</text>-->
+<form class='p0' bindsubmit="formSubmit" bindreset='formReset'>
+<view class='p1'>
+  <text>目标学府:</text>
+  <input name ="campus"  value='清华大学'></input>
+</view>
+<view>
+  <text>年:</text>
+  <input name="year" value='2019'></input>
+</view>
+<view>
+  <text>月:</text>
+  <input name="month" value='12'></input>
+</view>
+<view>
+  <text>日:</text>
+  <input name="day" value="23"></input>
+</view>
+<button form-type='submit'>提交</button>
+</form>

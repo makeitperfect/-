@@ -1,0 +1,12 @@
+<!--pages/pageC/page.wxml-->
+<form  class='p0' bindsubmit='submit'>
+  <view>
+    <text>标题：</text>
+    <input name="name"></input>
+  </view>
+  <view>
+    <text>内容：</text>
+    <input name="content"></input>
+  </view>
+  <button form-type='submit' >添加日程</button>
+</form>

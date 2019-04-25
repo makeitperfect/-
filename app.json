@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/pageA/page",
+    "pages/pageB/page",
+    "pages/chooseLib/chooseLib",
+    "pages/pageC/page"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#220011",
+    "navigationBarTitleText": "修仙模式",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/icon_package/shouye.png",
+        "selectedIconPath": "image/icon_package/shouye.png"
+      },
+      {
+        "pagePath": "pages/pageA/page",
+        "text": "用户",
+        "iconPath": "image/icon_package/wode.png",
+        "selectedIconPath": "image/icon_package/wode.png"
+      }
+    ]
+  },
+  "cloud": true
+}

@@ -1,0 +1,14 @@
+<view class="p0">
+  <view class='p1'>
+    <image src='{{avatarUrl}}'></image>
+  <view class='p2'>
+    <text style='font-weight:700'>{{userInfo.nickName}}</text>
+    <text>{{user.signature}}</text>
+  </view>
+  </view>
+</view>
+<view class='list'>
+  <view class='p3' bindtap='setinfo'>
+    <text>设置</text>
+  </view>
+</view>
